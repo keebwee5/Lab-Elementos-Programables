@@ -7,11 +7,11 @@
 
 > **Ingeniería en Sistemas Computacionales | Universidad Iberoamericana Puebla**
 > 
-> Repositorio oficial para las prácticas, evidencias y retos del curso de Laboratorio de Elementos Programables I.
+> Repositorio oficial para las prácticas, evidencias y retos del curso de Laboratorio de Elementos Programables.
 
 ##  Sobre este repositorio
 
-Este espacio funciona como un portafolio de evidencias técnicas enfocado en la arquitectura de microcontroladores (familia RP2040 y RP2350). Aquí se documenta el puente entre el código de alto/bajo nivel y el hardware físico, abarcando desde la gestión de memoria y registros hasta la manipulación directa de periféricos (GPIO, PWM, UART, etc.).
+Este espacio funciona como un portafolio de evidencias de clase, enfocado en la arquitectura de microcontroladores (familia RP2350). Aquí se documenta el puente entre el código de alto/bajo nivel y el hardware físico, abarcando desde la gestión de memoria y registros hasta la manipulación directa de periféricos (GPIO, PWM, UART, etc.).
 
 ##  Tecnologías y Herramientas
 

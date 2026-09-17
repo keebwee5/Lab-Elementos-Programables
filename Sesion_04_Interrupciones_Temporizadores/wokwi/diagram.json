@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20260406-v1.28.0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 284.6,
+      "left": -9.6,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -13.2,
+      "left": -188.2,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 111.6,
+      "left": -178.6,
+      "attrs": { "color": "magenta" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 32.75,
+      "left": -144,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 157.55,
+      "left": -144,
+      "attrs": { "value": "330" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP16", "btn1:1.l", "green", [ "v25.65", "h-91.2", "v76.8" ] ],
+    [ "led1:A", "r1:1", "gold", [ "v0" ] ],
+    [ "r1:2", "pico:GP14", "gold", [ "h56.4", "v147.15" ] ],
+    [ "led2:A", "r2:1", "violet", [ "v0" ] ],
+    [ "r2:2", "pico:GP15", "violet", [ "h8.4", "v31.95" ] ],
+    [ "led2:C", "pico:GND.3", "black", [ "v0", "h-18.8", "v-48", "h105.6", "v19.2" ] ],
+    [ "led1:C", "pico:GND.3", "black", [ "v76.8", "h96.4", "v19.2" ] ],
+    [ "pico:GND.5", "btn1:2.r", "black", [ "h43.2", "v140.85" ] ]
+  ],
+  "dependencies": {}
+}

@@ -24,8 +24,7 @@ Este espacio funciona como un portafolio de evidencias técnicas enfocado en la 
 
 Con este mapa puedes navegar directamente a las prácticas y proyectos de cada sesión:
 
-*   [**Sesión 01:** (Pon aquí el nombre del tema de la sesión 1)](./Sesion_01_Nombre_De_La_Carpeta)
-*   [**Sesión 02:** (Pon aquí el nombre del tema de la sesión 2)](./Sesion_02_Nombre_De_La_Carpeta)
-*   [**Sesión 03:** (Pon aquí el nombre del tema de la sesión 3)](./Sesion_03_Nombre_De_La_Carpeta)
+*   [**Sesión 02:** Conceptos Basicos MCU](./Sesion_02_Conceptos_Basicos_MCU)
+*   [**Sesión 03:** GPIO, Pullup y Pulldown](./Sesion_03_GPIO_Pullup_Pulldown)
 *   [**Sesión 04:** Interrupciones y Temporizadores](./Sesion_04_Interrupciones_Temporizadores)
 
